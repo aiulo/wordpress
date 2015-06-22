@@ -2581,7 +2581,7 @@ function _default_wp_die_handler( $message, $title = '', $args = array() ) {
 </body>
 </html>
 <?php
-	die();
+	exit(1);
 }
 
 /**
